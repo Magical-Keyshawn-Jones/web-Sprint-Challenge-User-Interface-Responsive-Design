@@ -218,6 +218,19 @@ nav img {
     width:25%;
 }
 
+.text-container h2 {
+    font-size: 1.4vw;
+    margin-bottom: 3rem;
+}
+
+.text-container p {
+    font-size: 1.4vw;
+}
+
+.text-container h2, .text-container p {
+    text-align: left;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
