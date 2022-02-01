@@ -122,7 +122,7 @@ nav img {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 4%;
-    border-bottom: 2px solid #ff4b00;
+    border-bottom: 4px solid #ff4b00;
     text-align: justify;
 }
 
@@ -138,13 +138,58 @@ nav img {
     text-align: center;
 }
 
+/* Box Color Classes */
+
+.teal {
+    background-color: teal;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.forestgreen {
+    background-color: forestgreen;
+}
+
+.darkorchid {
+    background-color: darkorchid;
+}
+
+.hotpink {
+    background-color: hotpink;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
 /*Middle Section Styles*/
 .middle-content {
+    padding-top: 0;
     margin-bottom: 4%;
+    border-bottom: 4px solid #ff4b00;
 }
 
 .middle-content h2 {
     margin-bottom: 0;
+    font-size: 2.2vw;
 }
 
 .middle-content .boxes {
@@ -154,12 +199,13 @@ nav img {
 }
 
 .middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
+    margin: 4% 2%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 15%;
+    height: 18vh;
 }
 
 /*Bottom Section Styles*/
