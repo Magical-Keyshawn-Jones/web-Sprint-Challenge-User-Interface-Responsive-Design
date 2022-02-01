@@ -253,6 +253,16 @@ footer nav a {
 }
 
 /*About Page Styles*/
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 3rem;
+}
+.top {
+    border-bottom: 4px solid #ff4b00;
+}
 
 
 /*Responsive Styles*/
