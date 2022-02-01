@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 2%;
     font-family: 'Rubik', sans-serif;
 }
-section, footer{
+section, footer, aside, main, article, details{
     padding:4% 0;
 }
 .container {
