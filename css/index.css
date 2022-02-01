@@ -265,13 +265,13 @@ p {
     border-bottom: 4px solid #ff4b00;
 }
 
-main {
+.about-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-main img {
+.about-main img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -294,3 +294,7 @@ section h2 {
 
 
 /*Responsive Styles*/
+
+@media screen and (max-width: 500px) {
+    
+}
