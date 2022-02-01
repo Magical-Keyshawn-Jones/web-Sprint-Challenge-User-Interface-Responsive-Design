@@ -73,6 +73,45 @@ section, footer, aside, main, article, details, header, nav{
     margin: 0 auto;
 }
 
+/* Header and Nav */
+
+header {
+    display:flex;
+    justify-content: center;
+     height: 50vh;
+     width: auto;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+nav a {
+    display: flex;
+    flex-direction: flex-start;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+nav div {
+    width: 30vh;
+    height: 25vh;
+}
+
+nav img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /*Top Section Styles*/
 
 .top-content {
