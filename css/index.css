@@ -206,6 +206,7 @@ nav img {
     justify-content: center;
     width: 15%;
     height: 18vh;
+    font-size: 3rem;
 }
 
 /*Bottom Section Styles*/
@@ -237,8 +238,18 @@ nav img {
 
 /*Footer Styles*/
 footer {
+    display: flex;
     width: 100%;
     background-color: #ff4b00;
+    justify-content: center;
+}
+
+footer nav {
+    width: 80%;
+}
+
+footer nav a {
+    color: white;
 }
 
 /*About Page Styles*/
