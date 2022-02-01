@@ -80,6 +80,7 @@ header {
     justify-content: center;
      height: 50vh;
      width: auto;
+     padding-bottom: 0;
 }
 
 header img {
@@ -118,15 +119,23 @@ nav img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 0;
+    margin-top: 0;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
 
 .top-content .text-container {
-    width: 35%;
+    width: 45%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    padding-bottom: 4%; 
+    font-size: 1.5vw;
+}
+
+.text-container h2 {
+    font-size: 2vw;
+    text-align: center;
 }
 
 /*Middle Section Styles*/
