@@ -113,6 +113,12 @@ nav img {
     max-height: 100%;
 }
 
+#fix {
+    display: flex;
+    justify-content: space-between;
+    width: 110rem;
+}
+
 /*Top Section Styles*/
 
 .top-content {
@@ -300,6 +306,7 @@ section h2 {
     #fix {
         display: flex;
         flex-direction: row;
+        width: 25rem;
     }
 
     #fix a {
@@ -332,4 +339,22 @@ section h2 {
         width: 50vh;
         height: auto;
     }
+
+    .top-content {
+        flex-direction: column;
+    }
+
+    .text-container {
+        margin-left: 10rem;
+    }
+
+    .text-container p {
+        font-size: 3vw;
+    }
+
+    .text-container h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
 }
