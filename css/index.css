@@ -295,6 +295,41 @@ section h2 {
 
 /*Responsive Styles*/
 
-@media screen and (max-width: 500px) {
+@media (max-width: 1000px), (max-height: 500px), (max-width: 500px) {
     
+    #fix {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #fix a {
+        padding: 0 2rem;
+    }
+
+    .nav-img {
+        margin-left: 30%;
+    }
+
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+
+    nav div {
+        justify-self: flex-end;
+       flex-direction: column;
+       width: 15rem;
+        height: 15rem;
+    }
+
+    nav a {
+        flex-direction: row;
+        font-size: 80%;
+    }
+    
+    header {
+        width: 50vh;
+        height: auto;
+    }
 }
