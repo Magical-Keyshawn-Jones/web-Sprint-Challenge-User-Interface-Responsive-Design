@@ -357,4 +357,14 @@ section h2 {
         text-align: center;
     }
 
+    aside h2 {
+        text-align: center;
+        font-size: 4vw !important;
+    }
+
+    .box {
+        width: 15rem !important;
+        height: 15rem !important;
+    }
+
 }
