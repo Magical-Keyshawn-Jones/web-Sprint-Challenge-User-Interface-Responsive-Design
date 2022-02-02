@@ -395,4 +395,18 @@ section h2 {
         text-align: center;
         font-size: 2.5rem;
     }
+
+    section {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    section p {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
 }
