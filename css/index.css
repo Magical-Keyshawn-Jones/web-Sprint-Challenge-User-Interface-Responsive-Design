@@ -367,4 +367,19 @@ section h2 {
         height: 15rem !important;
     }
 
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    #extras {
+        text-align: justify;
+        width: 20rem;
+        height: 10rem;
+        margin-bottom: 8rem;;
+    }
+
+    footer nav {
+        margin-left: 20rem;
+        margin-bottom: 3rem;
+    }
 }
